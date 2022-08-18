@@ -11,3 +11,6 @@ npx create-react-app my-app
 This will install a bunch of libraries using the "Node Package Manager" npm.  When it finishes, you should see the following directory structure:
 * ```node_modules```
   * This directory contains all of the libraries that will be used by your application 
+* ```public```
+  * This directory contains the static content for your application
+    * ```index.html``` contains the ```    <div id="root"></div>``` tag that react will populate.
