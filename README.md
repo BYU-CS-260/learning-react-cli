@@ -14,3 +14,7 @@ This will install a bunch of libraries using the "Node Package Manager" npm.  Wh
 * ```public```
   * This directory contains the static content for your application
     * ```index.html``` contains the ```    <div id="root"></div>``` tag that react will populate.
+* ```src```
+  * This directory contains the javascript source
+    * The most important file is ```App.js``` that contains the ```<App>``` tag that will be rendered when your react app runs.
+    * It is called by ```index.js``` which finds the ```<div id="root"></div>``` tag in the DOM and populates it with the contents of App.js.
