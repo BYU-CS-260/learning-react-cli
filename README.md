@@ -18,3 +18,31 @@ This will install a bunch of libraries using the "Node Package Manager" npm.  Wh
   * This directory contains the javascript source
     * The most important file is ```App.js``` that contains the ```<App>``` tag that will be rendered when your react app runs.
     * It is called by ```index.js``` which finds the ```<div id="root"></div>``` tag in the DOM and populates it with the contents of App.js.
+
+You will learn about the other files in this directory as you experiment with your new React application.  For now, just replace the contents of App.js with the following
+```
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>
+        Hello World
+        </h1>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+## Running your React App
+You can run your React app by entering the following from the command line while you are in the in the ```my-app``` directory. 
+You can issue the ```cd my-app``` command to change directory.  Then run ```npm start```.
+```
+cd my-app
+npm start
+```
+![](images/startreact.png
