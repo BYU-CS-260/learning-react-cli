@@ -45,4 +45,5 @@ You can issue the ```cd my-app``` command to change directory.  Then run ```npm 
 cd my-app
 npm start
 ```
+
 ![](images/startreact.png
