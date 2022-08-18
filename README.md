@@ -9,3 +9,5 @@ We are going to repeat the learning activities from the last module using the CL
 npx create-react-app my-app
 ```
 This will install a bunch of libraries using the "Node Package Manager" npm.  When it finishes, you should see the following directory structure:
+* ```node_modules```
+...* This directory contains all of the libraries that will be used by your application 
