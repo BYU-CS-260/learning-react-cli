@@ -46,4 +46,4 @@ cd my-app
 npm start
 ```
 
-![](images/startreact.png
+![](images/startreact.png)
