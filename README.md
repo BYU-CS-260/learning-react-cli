@@ -50,4 +50,4 @@ npm start
 
 You should be able to view the running app by selecting "preview" and "Preview Running Application"
 
-![](images/previewRunning.png)
+![](images/previewrunning.png)
