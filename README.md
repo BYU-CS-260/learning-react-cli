@@ -51,3 +51,25 @@ npm start
 You should be able to view the running app by selecting "preview" and "Preview Running Application"
 
 ![](images/previewrunning.png)
+
+## Deploying your application
+When you ran "npm start", by default, npm will serve your application on port 3000.
+You probably want to deploy your application so that it can be served by your "Caddy" web server.  
+You will need to change your "package.json" file to allow your application to be served from any subdirectory in your domain.  
+Add the following line to the top of your "package.json" file
+```
+  "homepage": ".",
+```
+So, the top 5 lines of your package.json file should be:
+```
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+```
+Now deploy your application with the command
+```
+npm run build
+```
+This should create a "build" directory with all of the files needed to run your application.  Notice that there is an "index.html" file in this directory that is a compressed version of your application.  If you have created my-app in your "public_html/react" directory, then you can access your React CLI application by going to https://mydomain/react/my-app/build/
