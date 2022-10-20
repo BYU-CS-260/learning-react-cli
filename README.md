@@ -1,4 +1,4 @@
-# learning the React Command Line Interface (CLI)
+# Learning the React Command Line Interface (CLI)
 
 Although you can create full applications in a html file, most developers will use the Command Line Interface to automate many of the tasks you had to do by hand in the last module.
 
