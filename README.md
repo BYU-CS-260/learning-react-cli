@@ -20,7 +20,7 @@ This will install a bunch of libraries using the "Node Package Manager" npm.  Wh
     * It is called by ```index.js``` which finds the ```<div id="root"></div>``` tag in the DOM and populates it with the contents of App.js.
 
 You will learn about the other files in this directory as you experiment with your new React application.  For now, just replace the contents of App.js with the following
-```
+```jsx
 import logo from './logo.svg';
 import './App.css';
 
