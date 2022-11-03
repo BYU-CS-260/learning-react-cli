@@ -72,4 +72,6 @@ Now deploy your application with the command
 ```
 npm run build
 ```
-This should create a "build" directory with all of the files needed to run your application.  Notice that there is an "index.html" file in this directory that is a compressed version of your application.  If you have created my-app in your "public_html/react" directory, then you can access your React CLI application by going to https://mydomain/react/my-app/build/
+This should create a "build" directory with all of the files needed to run your application.  Notice that there is an "index.html" file in this directory that is a compressed version of your application.  You can serve this application by [adding a block to your Caddyfile](https://github.com/BYU-CS-260/Virtual-Hosts) for a virtual host with the location of your "build" directory as the root.
+
+If you have created my-app in your "public_html/react" directory, you may also be able to access your React CLI application by going to https://mydomain/react/my-app/build/
